@@ -1,0 +1,16 @@
+import random
+print("Bill Roulette !")
+a = input("Enter the names separated by commas: \n")
+b = a.split(",")
+c = len(b)
+d = random.randint(0,c-1)
+print(f"payment to be made by {b[d]} today")
+
+# SUBSTITUTE CODE
+
+import random
+print("Bill Roulette !")
+a = input("Enter the names separated by commas: \n")
+b = a.split(",")
+c=random.choice(b)
+print("The one who is gonna pay is " + c)
